@@ -1,5 +1,23 @@
 /* Global */
 
+#name {
+    color: green;
+    font-family: 'Lobster', cursive;
+    font-size: 85px;
+    float: right;
+    margin-right: 5%;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+#bio-pic {
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 /* Nav */
 
 a:link,
