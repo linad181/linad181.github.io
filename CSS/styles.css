@@ -1,0 +1,25 @@
+/* Global */
+
+/* Nav */
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #bf4158;
+}
+
+a:focus {
+  background: green;
+}
+
+a:hover {
+  background: #a6242f;
+  color: #466ba6;
+}
+
+a:active {
+  background: red;
+}
+
+
+/* Bio */
