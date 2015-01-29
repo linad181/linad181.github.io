@@ -6,18 +6,18 @@
 	margin-bottom: 1%;
 }
 
-.bio-pic {
-	
+.quote {
+	font-size:16pt;
 }
 
-.sectionLeft {
+.left {
 	float: left;
 	margin-left: 5%;
 	margin-right: 2.5%;
 	margin-top: 5%;
 }
 
-.sectionRight {
+.right {
 	float: right;
 	margin-left: 2.5%;
 	margin-right: 5%;
@@ -45,6 +45,10 @@ article {
 	margin-left: 5%;
 	margin-right: 5%;
 	padding: 10px;
+}
+
+.navBar {
+	clear: both;
 }
 
 /* Nav */
