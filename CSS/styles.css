@@ -1,48 +1,92 @@
 /* Global */
-
-#name {
-    color: green;
-    font-family: 'Lobster', cursive;
-    font-size: 85px;
-    float: right;
-    margin-right: 5%;
-    margin-left: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    
+.name {
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 85px;
+	margin-bottom: 1%;
 }
 
-#bio-pic {
-    margin-left: 5%;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.bio-pic {
+	
+}
+
+.sectionLeft {
+	float: left;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	margin-top: 5%;
+}
+
+.sectionRight {
+	float: right;
+	margin-left: 2.5%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.intro {
+	font-size: 1em;
 }
 
 header {
-    text-align: center;
-    clear: both;
+	text-align: center;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #465227;
 }
+
+body {
+	background-color: #242521;
+}
+
+article {
+	background-color: #465227;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10px;
+}
+
 /* Nav */
+nav {
+	text-align: center;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	font-weight: 800;
+	font-variant: normal;
+}
 
-a:link,
-a:visited {
+.navHome { 
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+}
+
+.navBio {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;	
+}
+
+.navStyle {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+}
+
+nav a:link,
+nav a:visited {
   text-decoration: none;
-  color: #bf4158;
+  color: gray;
 }
 
-a:focus {
-  background: green;
+nav a:hover {
+  color: white;
 }
-
-a:hover {
-  background: #a6242f;
-  color: #466ba6;
-}
-
-a:active {
-  background: red;
-}
-
 
 /* Bio */
