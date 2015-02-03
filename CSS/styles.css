@@ -62,30 +62,30 @@ nav {
 	margin-right: 5%;
 	margin-left: 5%;
 	padding-left: 10px;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-right: 10px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	font-weight: 800;
 	font-variant: normal;
 	background-color: #465227;
 }
 
 .navHome { 
-	margin-left: 2%;
-	margin-right: 2%;
-	padding-top: 70px;
+	/* margin-left: 2%;
+	margin-right: 2%; */
+	padding: 10px 2% 10px 2%;
 }
 
 .navBio {
-	margin-left: 2%;
-	margin-right: 2%;
-	padding-top: 70px;	
+	/* margin-left: 2%;
+	margin-right: 2%; */
+	padding: 10px 2% 10px 2%;
 }
 
 .navStyle {
-	margin-left: 2%;
-	margin-right: 2%;
-	padding-top: 70px;
+	/* margin-left: 2%;
+	margin-right: 2%; */
+	padding: 10px 2% 10px 2%;
 }
 
 nav a:link,
@@ -96,6 +96,80 @@ nav a:visited {
 
 nav a:hover {
   color: white;
+  background-color: gray;
 }
 
 /* Bio */
+
+/* Styles */
+/* Layout for Style Tile
+Feel free to change */
+.style-tile {
+	background: white;
+}
+
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+/* Set Your Own Typography */
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Clearfix - Oo Not Remove */
+.clearfix {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0
+}
+
+/* Color palette */
+.style-tile .color-1 {
+	background: red;
+}
+
+.style-tile .color-2 {
+	background: blue;	
+}
+
+body.style-tile {
+	font-family: 'Great Vibes', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
