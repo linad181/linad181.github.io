@@ -2,7 +2,7 @@
 .name {
 	color: white;
 	font-family: 'Great Vibes', cursive;
-	font-size: 85px;
+	font-size: 5em;
 	margin-bottom: 1%;
 }
 
@@ -32,7 +32,7 @@ header {
 	text-align: center;
 	margin-left: 5%;
 	margin-right: 5%;
-	background-color: #465227;
+	background-color: #373c29;
 }
 
 .clearfix {
@@ -40,11 +40,12 @@ header {
 }
 
 body {
-	background-color: #242521;
+	background-image: url("../img/bg-darkgray.jpg");
+	font-family: 'Roboto', sans-serif;
 }
 
-article {
-	background-color: #465227;
+div.container {
+	background-color: #373c29;
 	margin-left: 5%;
 	margin-right: 5%;
 	padding: 10px;
@@ -67,7 +68,7 @@ nav {
 	padding-bottom: 10px;
 	font-weight: 800;
 	font-variant: normal;
-	background-color: #465227;
+	background-color: #373c29;
 }
 
 .navHome { 
@@ -88,10 +89,14 @@ nav {
 	padding: 10px 2% 10px 2%;
 }
 
-nav a:link,
-nav a:visited {
+a:link,
+a:visited {
   text-decoration: none;
-  color: gray;
+  color: #6f7a50;
+}
+
+a:hover {
+	color: white;
 }
 
 nav a:hover {
@@ -100,14 +105,21 @@ nav a:hover {
 }
 
 /* Bio */
+body.bio h2{
+	font-family: 'Lobster Two', cursive;
+	color: gray;
+	font-size: 3em;
+}
+
+body.bio h3 {
+	font-family: 'Lobster Two', cursive;
+	color: gray;
+	font-size: 2em;
+}
 
 /* Styles */
 /* Layout for Style Tile
 Feel free to change */
-.style-tile {
-	background: white;
-}
-
 section {
 	margin: 20px 0;
 }
@@ -148,18 +160,46 @@ h2, h3, p {
 
 /* Color palette */
 .style-tile .color-1 {
-	background: red;
+	background: #373c29;
 }
 
 .style-tile .color-2 {
-	background: blue;	
+	background: white;	
 }
 
-body.style-tile {
+.style-tile .color-3 {
+	background: gray;
+}
+
+.style-tile .pattern-1 {
+	background-image: url("../img/bg-darkgray.jpg")
+}
+
+.style-tile .pattern-2 {
+
+}
+
+.style-tile .pattern-3 {
+
+}
+
+body.style-tile .header {
+	color: white;
 	font-family: 'Great Vibes', cursive;
+	font-size: 5em;
 }
 
+body.style-tile .primary {
+	font-family: 'Lobster Two', cursive;
+	color: gray;
+	font-size: 3em;
+}
 
+body.style-tile .secondary {
+	font-family: 'Lobster Two', cursive;
+	color: gray;
+	font-size: 2em;
+}
 
 
 
