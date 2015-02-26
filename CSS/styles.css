@@ -89,6 +89,12 @@ nav {
 	padding: 10px 2% 10px 2%;
 }
 
+.navContact{
+	/* margin-left: 2%;
+	margin-right: 2%; */
+	padding: 10px 2% 10px 2%;
+}
+
 a:link,
 a:visited {
   text-decoration: none;
