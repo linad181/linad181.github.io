@@ -1,13 +1,15 @@
-/* Global */
+/****************************
+  Global Styles
+****************************/
 .name {
 	color: white;
 	font-family: 'Great Vibes', cursive;
-	font-size: 5em;
+	font-size: 5.063em;
 	margin-bottom: 1%;
 }
 
 .quote {
-	font-size:16pt;
+	font-size: 1.5em;
 }
 
 .left {
@@ -48,14 +50,45 @@ div.container {
 	background-color: #373c29;
 	margin-left: 5%;
 	margin-right: 5%;
+	margin-bottom: 10px;
 	padding: 10px;
 }
 
-.navBar {
-	clear: both;
+h2 {
+	font-family: 'Lobster Two', cursive;
+	color: gray;
+	font-size: 3.375em;
 }
 
-/* Nav */
+h3 {
+	font-family: 'Lobster Two', cursive;
+	color: gray;
+	font-size: 2.25em;
+}
+/****************************
+  End global styles
+****************************/
+
+/****************************
+  Layout for home
+****************************/
+.rightSide {
+    width: 50%;
+	float: right;
+}
+
+.leftSide {
+    width: calc(50% - 10px);
+	margin-right: 10px;
+	float: left;
+}
+/****************************
+  End layout for home
+****************************/
+
+/****************************
+  Navigation bar 
+****************************/
 nav {
 	text-align: center;
 	margin-top: 10px;
@@ -72,26 +105,18 @@ nav {
 }
 
 .navHome { 
-	/* margin-left: 2%;
-	margin-right: 2%; */
 	padding: 10px 2% 10px 2%;
 }
 
-.navBio {
-	/* margin-left: 2%;
-	margin-right: 2%; */
+.navGallery {
 	padding: 10px 2% 10px 2%;
 }
 
 .navStyle {
-	/* margin-left: 2%;
-	margin-right: 2%; */
 	padding: 10px 2% 10px 2%;
 }
 
 .navContact{
-	/* margin-left: 2%;
-	margin-right: 2%; */
 	padding: 10px 2% 10px 2%;
 }
 
@@ -110,22 +135,17 @@ nav a:hover {
   background-color: gray;
 }
 
-/* Bio */
-body.bio h2{
-	font-family: 'Lobster Two', cursive;
-	color: gray;
-	font-size: 3em;
+.navBar {
+	clear: both;
 }
+/****************************
+  End Navigation bar 
+****************************/
 
-body.bio h3 {
-	font-family: 'Lobster Two', cursive;
-	color: gray;
-	font-size: 2em;
-}
-
-/* Styles */
-/* Layout for Style Tile
-Feel free to change */
+/****************************
+  Layout for Style Tile
+  Feel free to change 
+****************************/
 section {
 	margin: 20px 0;
 }
@@ -192,24 +212,39 @@ h2, h3, p {
 body.style-tile .header {
 	color: white;
 	font-family: 'Great Vibes', cursive;
-	font-size: 5em;
+	font-size: 5.063em;
 }
 
 body.style-tile .primary {
 	font-family: 'Lobster Two', cursive;
 	color: gray;
-	font-size: 3em;
+	font-size: 3.375em;
 }
 
 body.style-tile .secondary {
 	font-family: 'Lobster Two', cursive;
 	color: gray;
-	font-size: 2em;
+	font-size: 2.25em;
 }
+/****************************
+  End Style Tile layout
+****************************/
 
-
-
-
+/****************************
+  Media queries
+****************************/
+@media screen (max-width: 600) {
+    .leftSide {
+        width: 90%;
+    }
+    
+    .rightSide {
+        width: 90%;
+    }
+}
+/****************************
+  End media queries
+****************************/
 
 
 

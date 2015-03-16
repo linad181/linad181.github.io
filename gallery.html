@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gallery</title>
+
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
+		
+		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+        <link rel="stylesheet" type="text/css" href="CSS/gallery.css">
+		
+        <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body class="bio">
+        <header>
+			<div class="left">
+				<h1 class="name">Frank Pecka</h1>
+				<p class="quote">I reject your reality and substitute my own.</p>
+			</div>
+			
+			<div class="right">
+				<img src="img/me.jpg" class="bio-pic" style="width: 200px; height: 200px;">
+			</div>
+
+            <div class="clearfix"></div>	
+			
+			
+        </header>
+
+        <div class="navBar">
+            <nav>
+                <p>
+                    <a href="index.html" class="navHome">Home</a> 
+                    <a href="gallery.html" class="navGallery">Gallery</a> 
+                    <a href="style-tile.html" class="navStyle">Style Tile</a> 
+                    <a href="contact.html" class="navContact">Contact</a>
+                </p>
+            </nav>
+        </div>
+        
+		<div class="container">
+            <!--Gallery is cited from Ben Schwarz and examples from P. Colin Manikoth-->
+            <div class="gallery items-3">
+			  <div id="item-1" class="control-operator"></div>
+			  <div id="item-2" class="control-operator"></div>
+			  <div id="item-3" class="control-operator"></div>
+			 
+			  <figure class="item">
+			    <img src="img/gallery_pics/imgTrace.jpg" alt="">
+			  </figure>
+
+			  <figure class="item">
+			    <img src="img/gallery_pics/photoManip.jpg" alt="">
+			  </figure>
+
+			  <figure class="item">
+			    <img src="img/gallery_pics/posterize.jpg" alt="">
+			  </figure>
+			
+			  <div class="controls">
+			    <a href="#item-1" class="control-button">
+			    	<img src="img/gallery_pics/imgTrace_thumb.jpg" alt="">
+			    </a>
+			    <a href="#item-2" class="control-button">
+			    	<img src="img/gallery_pics/photoManip_thumb.jpg" alt="">
+			    </a>
+			    <a href="#item-3" class="control-button">
+					<img src="img/gallery_pics/posterize_thumb.jpg" alt="">
+			    </a>
+			  </div>
+			</div>
+
+		<!-- Clearfix -->
+		<div class="clear"></div>
+        
+		</div>
+	</body>
+</html>
