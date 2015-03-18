@@ -2,7 +2,7 @@
   Global Styles
 ****************************/
 .name {
-	color: #f1a124;
+	color: #ffcb78;
 	font-family: 'Great Vibes', cursive;
 	font-size: 5.063em;
 	margin-bottom: 1%;
@@ -64,7 +64,7 @@ h2 {
 
 h3 {
 	font-family: stark, cursive;
-	color: #c77e0a;
+	color: #ffbc50;
 	font-size: 2.25em;
 }
 
@@ -160,7 +160,33 @@ nav a:hover {
 /****************************
   Gallery page 
 ****************************/
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #9e7600;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
 
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #9e7600;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    width: 120px;
+    margin: 5px;
+}
 /****************************
   End gallery page 
 ****************************/
@@ -247,7 +273,7 @@ body.style-tile .primary {
 
 body.style-tile .secondary {
 	font-family: stark, cursive;
-	color: #c77e0a;
+	color: #ffbc50;
 	font-size: 2.25em;
 }
 /****************************

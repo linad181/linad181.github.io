@@ -658,6 +658,7 @@
 
 .gallery .item {
   height: auto;
+  width: auto;
   overflow: hidden;
   text-align: center;
   align-self: center;
@@ -665,10 +666,10 @@
 
 .gallery .controls {
   position: absolute;
-  bottom: -40%;
+  bottom: 0;
   width: 100%;
   text-align: center;
-  z-index: 1;
+/*  z-index: 1;*/
 }
 
 .gallery .control-button {
