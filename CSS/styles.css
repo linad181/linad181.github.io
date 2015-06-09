@@ -271,7 +271,7 @@ body.style-tile .secondary {
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 980px) {
     .right {
         align-self: center;
         float: none;
@@ -287,18 +287,18 @@ body.style-tile .secondary {
     h1, h2 {
         font-size: 2.5em;
     }
+}
+@media screen and (max-width: 1290px) {
+    figure.item img {
+        width: 50%;
+        height: auto;
+    }
     
     header,
     div.container,
     .navBar {
         margin-left: 10%;
         margin-right: 10%;
-    }
-}
-@media screen and (max-width: 1290px) {
-    figure.item img {
-        width: 50%;
-        height: auto;
     }
 }
 
