@@ -2,7 +2,7 @@
   Global Styles
 ****************************/
 .name {
-	color: #ffcb78;
+	color: #366223;
 	font-family: 'Great Vibes', cursive;
 	font-size: 5.063em;
 	margin-bottom: 1%;
@@ -32,9 +32,9 @@
 
 header {
 	text-align: center;
-	margin-left: 5%;
-	margin-right: 5%;
-	background-color: #f12924;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #b6c58f;
 }
 
 .clearfix {
@@ -43,33 +43,33 @@ header {
 
 body {
 /*	background-image: url("../img/bg-darkgray.jpg");*/
-    background-image: url("../img/dkRedBkgd.jpg");
-/*    background-color: #f12924;*/
+/*  background-image: url("../img/dkRedBkgd.jpg");*/
+    background-color: #92a465;
 	font-family: 'Roboto', sans-serif;
 }
 
 div.container {
-	background-color: #f12924;
-	margin-left: 5%;
-	margin-right: 5%;
+	background-color: #b6c58f;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-bottom: 10px;
 	padding: 10px;
 }
 
 h2 {
-	font-family: stark, cursive;
-	color: #ffcb78;
-	font-size: 3.375em;
+	font-family: Georgia, serif;
+	color: #366223;
+	font-size: 3em;
 }
 
 h3 {
-	font-family: stark, cursive;
-	color: #ffbc50;
-	font-size: 2.25em;
+	font-family: Georgia, serif;
+	color: #366223;
+	font-size: 2em;
 }
 
 p, li {
-    color: white;
+    color: black;
 }
 
 /*****
@@ -104,54 +104,67 @@ p, li {
 /****************************
   Navigation bar 
 ****************************/
-nav {
+.navBar {
 	text-align: center;
+    height: 42px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right: 5%;
-	margin-left: 5%;
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
+	margin-right: 15%;
+	margin-left: 15%;
 	font-weight: 800;
 	font-variant: normal;
-	background-color: #f12924;
+	background-color: #b6c58f;
 }
 
-.navHome { 
-	padding: 10px 2% 10px 2%;
+/*
+.navHome,
+.navGallery,
+.navStyle,
+.navContact { 
+	padding: 10px 35%;
+}
+*/
+
+nav a {
+    position: relative;
+    display: block;
+    margin: 1px;
+    height: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: center;
+    color: #727129;
 }
 
-.navGallery {
-	padding: 10px 2% 10px 2%;
-}
-
-.navStyle {
-	padding: 10px 2% 10px 2%;
-}
-
-.navContact{
-	padding: 10px 2% 10px 2%;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #ff7b78;
-}
-
-a:hover {
-	color: white;
-}
-
-nav a:hover {
-  color: white;
-  background-color: #9e7600;
+nav a: hover {
+    color: white;
+    background-color: #8a894a;
 }
 
 .navBar {
 	clear: both;
+}
+
+nav ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	text-align: center;
+    float: left;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 25%;
+    
+}
+
+select {
+    width: 95%;
+    margin: 5px;
 }
 /****************************
   End Navigation bar 
@@ -160,33 +173,7 @@ nav a:hover {
 /****************************
   Gallery page 
 ****************************/
-div.img {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #9e7600;
-    height: auto;
-    width: auto;
-    float: left;
-    text-align: center;
-}	
 
-div.img img {
-    display: inline;
-    margin: 5px;
-    border: 1px solid #ffffff;
-}
-
-div.img a:hover img {
-    border: 1px solid #9e7600;
-}
-
-div.desc {
-    text-align: center;
-    font-weight: normal;
-    color: white;
-    width: 120px;
-    margin: 5px;
-}
 /****************************
   End gallery page 
 ****************************/
@@ -236,19 +223,19 @@ h2, h3, p {
 
 /* Color palette */
 .style-tile .color-1 {
-	background: #f12924;
+	background: #b6c58f;
 }
 
 .style-tile .color-2 {
-	background: white;	
+	background: #92a465;	
 }
 
 .style-tile .color-3 {
-	background: #ff7b78;
+	background: #366223;
 }
 
 .style-tile .pattern-1 {
-	background-image: url("../img/dkRedBkgd.jpg")
+
 }
 
 .style-tile .pattern-2 {
@@ -260,21 +247,21 @@ h2, h3, p {
 }
 
 body.style-tile .header {
-	color: #f1a124;
+	color: #366223;
 	font-family: 'Great Vibes', cursive;
 	font-size: 5.063em;
 }
 
 body.style-tile .primary {
-	font-family: stark, cursive;
-	color: #ffcb78;
-	font-size: 3.375em;
+	font-family: Georgia, serif;
+	color: #366223;
+	font-size: 3em;
 }
 
 body.style-tile .secondary {
-	font-family: stark, cursive;
-	color: #ffbc50;
-	font-size: 2.25em;
+	font-family: Georgia, serif;
+	color: #366223;
+	font-size: 2em;
 }
 /****************************
   End Style Tile layout
@@ -283,7 +270,7 @@ body.style-tile .secondary {
 /****************************
   Media queries
 ****************************/
-@media screen and (max-width: 600px) {
+@media (max-width: 680px) {
     .leftSide {
         width: 90%;
         float: none;
@@ -295,7 +282,7 @@ body.style-tile .secondary {
     }
 }
 
-@media screen and (max-width: 867px) {
+@media screen and (max-width: 1100px) {
     .right {
         align-self: center;
         float: none;
@@ -307,6 +294,10 @@ body.style-tile .secondary {
         float: none;
         padding-top: 10px;
     }
+    
+    h1, h2 {
+        font-size: 2.5em;
+    }
 }
 @media screen and (max-width: 1250px) {
     figure.item img {
@@ -314,15 +305,18 @@ body.style-tile .secondary {
         height: auto;
     }
 }
+
+@media (max-width: 680px) {
+  nav ul {
+    display:none;
+  }
+}
+
+@media (min-width: 680px) {
+  nav select, nav button {
+    display:none;
+  }
+}
 /****************************
   End media queries
 ****************************/
-
-
-
-
-
-
-
-
-

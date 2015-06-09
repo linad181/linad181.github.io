@@ -6,13 +6,17 @@
 		<meta charset='utf-8'>
 		<meta name="viewport" content="width=device-width">
 
+        <!-- CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
-
 		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
 
+        <!-- External Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+        
+        <!-- JavaScript/JQuery library -->
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body class="style-tile">
@@ -33,13 +37,15 @@
 
         <div class="navBar">
             <nav>
-                <p>
-                	<a href="index.html" class="navHome">Home</a> 
-                	<a href="gallery.html" class="navGallery">Gallery</a> 
-                	<a href="style-tile.html" class="navStyle">Style Tile</a> 
-                	<a href="contact.html" class="navContact">Contact</a>
-                </p>
+                <ul>
+                	<li><a href="index.html" class="navHome">Home</a> </li>
+                    <li><a href="gallery.html" class="navGallery">Gallery</a></li>
+                	<li class="selected"><a href="style-tile.html" class="navStyle">Style Tile</a></li>
+                	<li><a href="contact.html" class="navContact">Contact</a></li>
+                </ul>
             </nav>
+            
+            <div class="clearfix"></div>
         </div>
 		
 		<div class="container">
@@ -51,15 +57,15 @@
 			<br><br>
 
 			<h2 class="primary">Primary Header</h2>
-			<em>Stark</em> by Pixel Sagas <em>| 3.375em | #FFCB78</em>
+			<em>Georgia | 3em | #FFCB78</em>
 			<br><br>
 
 			<h3 class="secondary">Secondary Header</h3>
-			<em>Stark</em> by Pixel Sagas <em>| 2.25em | #FFBC50</em>
+			<em>Georgia | 2em | #FFBC50</em>
 			<br><br>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, maiores, hic, <a href="">Links</a> dolor laboriosam rerum numquam accusantium minima architecto inventore quibusdam <a href="">Links </a> harum illum labore quidem itaque iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nostrum, ex modi quibusdam aliquid quam numquam aut sed iusto nisi nulla rerum assumenda quidem necessitatibus magni quia excepturi cum fugit!</p>
-			<em>Roboto | 1em | White</em>
+			<em>Roboto | 1em | Black</em>
 			
 		</section>
 		
@@ -67,7 +73,7 @@
 			<div class="color-1"></div>
 			<div class="color-2"></div>
 			<div class="color-3"></div>
-			<em>BG: #F12924 <br> White <br> Link: #FF7B78</em>
+			<em>Container: #B6C58F <br> Background: #92A465 <br> Headers: #366223</em>
 
 			<div class="clearfix"></div>
 		</section>
@@ -76,7 +82,7 @@
 			<div class="pattern-1"></div>
 			<div class="pattern-2"></div>
 			<div class="pattern-3"></div>
-			<em>Pattern 1: Dark Maroon Wood Pattern <br> Pattern 2: <br> Pattern 3: </em>
+			<em>Pattern 1: <br> Pattern 2: <br> Pattern 3: </em>
 
 			<div class="clearfix"></div>
 		</section>
@@ -84,5 +90,6 @@
 		<!-- Clearfix -->
 		<div class="clearfix"></div>
 	</div>
+        <script src="js/dropdown.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

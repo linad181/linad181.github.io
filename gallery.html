@@ -6,14 +6,18 @@
 		<meta charset='utf-8'>
 		<meta name="viewport" content="width=device-width">
 
+        <!-- CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
-		
 		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
         <link rel="stylesheet" type="text/css" href="CSS/gallery.css">
 		
+        <!-- External Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+        
+        <!-- JavaScript/JQuery library -->
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body class="bio">
@@ -34,44 +38,34 @@
 
         <div class="navBar">
             <nav>
-                <p>
-                    <a href="index.html" class="navHome">Home</a> 
-                    <a href="gallery.html" class="navGallery">Gallery</a> 
-                    <a href="style-tile.html" class="navStyle">Style Tile</a> 
-                    <a href="contact.html" class="navContact">Contact</a>
-                </p>
+                <ul>
+                	<li><a href="index.html" class="navHome">Home</a> </li>
+                    <li class="selected"><a href="gallery.html" class="navGallery">Gallery</a></li>
+                	<li><a href="style-tile.html" class="navStyle">Style Tile</a></li>
+                	<li><a href="contact.html" class="navContact">Contact</a></li>
+                </ul>
             </nav>
+            
+            <div class="clearfix"></div>
         </div>
         
 		<div class="container">
             
-    <!--Gallery is cited from W3Schools website. 
-        Address:http://www.w3schools.com/css/css_image_gallery.asp-->
         <h2>My Work</h2>
             <p>Below is a sampling of some of the digital techniques I've learned. Primary programs were Adobe Photoshop and Illustrator.</p>
-            <div class="img">
-                <a target="_blank" href="img/gallery_pics/imgTrace.jpg">
-                    <img src="img/gallery_pics/imgTrace_thumb.jpg" alt="Klematis" width="110" height="90">
-                </a>
-                <div class="desc">Pen Tool image trace of a Boeing 747 made in Adobe Illustrator</div>
-            </div>
-            <div class="img">
-                <a target="_blank" href="img/gallery_pics/photoManip.jpg">   
-                    <img src="img/gallery_pics/photoManip_thumb.jpg" alt="Klematis" width="110" height="90">
-                </a>
-                <div class="desc">Composite photo manipulation done in Adobe Photoshop</div>
-            </div>
-            <div class="img">
-                <a target="_blank" href="img/gallery_pics/posterize.jpg">
-                    <img src="img/gallery_pics/posterize_thumb.jpg" alt="Klematis" width="110" height="90">
-                </a>
-                <div class="desc">Poster of Leonard Nimoy with Spock quotes, created utilizing both Adobe Photoshop and Illustrator</div>
-            </div>
+           
+            <ul id="imageGallery">
+                <li><a href=img/gallery_pics/imgTrace.jpg><img src="img/gallery_pics/imgTrace.jpg" width="100" alt="Boeing 747 Image Trace with Illustrator"></a></li>
+                <li><a href=img/gallery_pics/photoManip.jpg><img src="img/gallery_pics/photoManip.jpg" width="100" alt="Photoshop manipulator with four ships named Enterprise"></a></li>
+                <li><a href=img/gallery_pics/posterize.jpg><img src="img/gallery_pics/posterize.jpg" width="100" alt="Posterized version of Leonard Nimoy with Spock quotes inside"></a></li>
+            </ul>
+            
             <div class="clearfix"></div>
 		</div>
 <!--		 Clearfix -->
 		
         
-	
+	<script src="js/lightbox.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/dropdown.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
